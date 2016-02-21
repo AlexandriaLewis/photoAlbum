@@ -20,12 +20,14 @@ home.click(function(event){
 
 });
 
-var album = $('.photoView');
-album.click(function(event){
-  event.preventDefault();
-  var selected = "." + $(this).attr('rel');
-  $(selected).removeClass('inactive');
-  $(selected).siblings('div').addClass('inactive');
-});
+// var album = $('.photoView').find('a');
+// album.click(function(event){
+//   event.preventDefault();
+//   var selected = "." + $(this).attr('rel');
+//   $(selected).removeClass('inactive');
+//   $(selected).siblings('div').addClass('inactive');
+// });
+
+
 
 });

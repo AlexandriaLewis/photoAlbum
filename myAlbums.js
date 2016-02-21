@@ -94,7 +94,7 @@ function home02(album){
     function rowingThree(photo){
       lookingForLove += "<div class='row03'>";
       for (i=0;i<3;i++){
-        lookingForLove += "<a href='#' class='photoView "+ photo[i]
+        lookingForLove += "<a href='#' class='"+ photo[i]
         + "' rel='photoView'><div class='cookie'><div class='cutter'><img src='"+photo[i]+"'/></div></div></a>";
       }
       return lookingForLove;
@@ -108,7 +108,7 @@ function home02(album){
     function rowingFour(photo){
       inAllTheWrongPlaces += "<div class='row04'>";
       for (i=3;i<6;i++){
-        inAllTheWrongPlaces += "<a href='#' class='photoView "+ photo[i]
+        inAllTheWrongPlaces += "<a href='#' class='"+ photo[i]
         + "' rel='photoView'><div class='cookie'><div class='cutter'><img src='"+photo[i]+"'/></div></div></a>";
       }
       return inAllTheWrongPlaces;
@@ -120,7 +120,6 @@ function home02(album){
     $('section.home2').html(lookingForLove+inAllTheWrongPlaces);
 
     };
-
 
 
 
