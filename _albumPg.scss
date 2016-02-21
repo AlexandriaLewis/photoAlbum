@@ -1,0 +1,40 @@
+div.albumPg {
+  height: 684px;
+
+  aside.coreBtns {
+    position: absolute;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 19%;
+    height: 684px;
+    background-color: #847577;
+
+        button {
+          display: block;
+          width: 80%;
+          height: 6%;
+          margin: 21% auto;
+          font-size: 139%;
+        }
+
+  }
+  section.home2 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 79.7%;
+    position: relative;
+    top: 50%;
+    left: 20%;
+    transform: translateY(-50%);
+    img {
+      height: 130%;
+      position: relative;
+      top: 50%;
+      left: -36%;
+      transform: translateY(-50%);
+    }
+  }
+
+}

@@ -1,0 +1,23 @@
+div.photoView {
+  background-color: #847577;
+  height: 684px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+  div.fullView {
+    width: 80%;
+    height: 80%;
+    // background-color: #778787;
+    position: relative;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    overflow: hidden;
+    img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+
+}

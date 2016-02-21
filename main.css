@@ -1,0 +1,167 @@
+* {
+  background-color: #e5e6e4;
+  box-sizing: border-box;
+  color: #a6a2a2;
+  font-family: 'Cabin', sans-serif;
+  font-size: 20px; }
+  * h1 {
+    color: #fbfbf2;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 250%;
+    background-color: inherit; }
+  * h2 {
+    color: #847577;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 225%;
+    background-color: inherit; }
+  * a {
+    text-decoration: none; }
+
+body {
+  margin: 0;
+  padding: 0; }
+  body .inactive {
+    display: none; }
+
+div.myAlbums {
+  height: 684px;
+  width: inherit;
+  margin: 0;
+  padding: 0; }
+  div.myAlbums header {
+    margin: 0;
+    padding: 0;
+    height: 140px;
+    width: 100%;
+    background-color: #847577;
+    position: relative; }
+    div.myAlbums header h1 {
+      position: absolute;
+      left: 41.5%;
+      top: 11%; }
+  div.myAlbums section.home1 {
+    margin: 0;
+    padding: 0;
+    width: 100%; }
+    div.myAlbums section.home1 img {
+      height: 140%;
+      position: relative;
+      top: 50%;
+      left: -22.5%;
+      transform: translateY(-50%); }
+
+div.row {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding: 0;
+  height: 250px;
+  width: 100%; }
+  div.row div.cookie {
+    height: 96%;
+    width: 22%;
+    margin: 0 5.5%;
+    padding: 0;
+    background-color: #fbfbf2;
+    display: inline-block; }
+    div.row div.cookie div.cutter {
+      width: 89%;
+      height: 72%;
+      margin: auto;
+      margin-top: 6%;
+      padding: 0;
+      background-color: #cccccc;
+      overflow: hidden; }
+
+div.row03 {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding: 0;
+  height: 250px;
+  width: 100%; }
+  div.row03 div.cookie {
+    height: 96%;
+    width: 22%;
+    margin: 0 5.5%;
+    padding: 0;
+    background-color: #fbfbf2;
+    display: inline-block; }
+    div.row03 div.cookie div.cutter {
+      width: 89%;
+      height: 72%;
+      margin: auto;
+      margin-top: 6%;
+      padding: 0;
+      background-color: #cccccc;
+      overflow: hidden; }
+
+div.row04 {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding: 0;
+  height: 250px;
+  width: 100%; }
+  div.row04 div.cookie {
+    height: 96%;
+    width: 22%;
+    margin: 0 5.5%;
+    padding: 0;
+    background-color: #fbfbf2;
+    display: inline-block; }
+    div.row04 div.cookie div.cutter {
+      width: 89%;
+      height: 72%;
+      margin: auto;
+      margin-top: 6%;
+      padding: 0;
+      background-color: #cccccc;
+      overflow: hidden; }
+
+div.albumPg {
+  height: 684px; }
+  div.albumPg aside.coreBtns {
+    position: absolute;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 19%;
+    height: 684px;
+    background-color: #847577; }
+    div.albumPg aside.coreBtns button {
+      display: block;
+      width: 80%;
+      height: 6%;
+      margin: 21% auto;
+      font-size: 139%; }
+  div.albumPg section.home2 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 79.7%;
+    position: relative;
+    top: 50%;
+    left: 20%;
+    transform: translateY(-50%); }
+    div.albumPg section.home2 img {
+      height: 130%;
+      position: relative;
+      top: 50%;
+      left: -36%;
+      transform: translateY(-50%); }
+
+div.photoView {
+  background-color: #847577;
+  height: 684px;
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+  div.photoView div.fullView {
+    width: 80%;
+    height: 80%;
+    position: relative;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    overflow: hidden; }
+    div.photoView div.fullView img {
+      max-width: 100%;
+      max-height: 100%; }
