@@ -87,29 +87,49 @@ $('#wideBtn').on('click', function(event) {
 
 
 
+$('body').on('click','.butts', function(event) {
+  event.preventDefault();
+  console.log("THIS CLICKEDDDDD");
+  var selected = "." + $(this).attr('rel');
+  $(selected).removeClass('inactive');
+  $(selected).siblings('div').addClass('inactive');
+  $('.fullView').html();
+});
+
+$('.photoView').on('click', function(event) {
+  event.preventDefault();
+  var selected = "." + $(this).attr('rel');
+  $(selected).removeClass('inactive');
+  $(selected).siblings('div').addClass('inactive');
+});
+
+
+
 function home02(album){
 
     var lookingForLove = "";
 
     function rowingThree(photo){
+      var thePhoto = "";
       lookingForLove += "<div class='row03'>";
       for (i=0;i<3;i++){
-        lookingForLove += "<a href='#' class='"+ photo[i]
-        + "' rel='photoView'><div class='cookie'><div class='cutter'><img src='"+photo[i]+"'/></div></div></a>";
+        var thePhoto = photo[i];
+        lookingForLove += "<a href='#' class='butts' rel='photoView'><div class='cookie'><div class='cutter'><img src='"
+        +thePhoto+ "'/></div></div></a>";
       }
       return lookingForLove;
     };
 
     rowingThree(album);
     lookingForLove += "</div>";
-
+//-----------------------------------------second row------------------------>
     var inAllTheWrongPlaces = "";
 
     function rowingFour(photo){
       inAllTheWrongPlaces += "<div class='row04'>";
       for (i=3;i<6;i++){
-        inAllTheWrongPlaces += "<a href='#' class='"+ photo[i]
-        + "' rel='photoView'><div class='cookie'><div class='cutter'><img src='"+photo[i]+"'/></div></div></a>";
+        inAllTheWrongPlaces += "<a href='#' class='butts' rel='photoView'><div class='cookie'><div class='cutter'><img src='"
+        +photo[i]+"'/></div></div></a>";
       }
       return inAllTheWrongPlaces;
     };

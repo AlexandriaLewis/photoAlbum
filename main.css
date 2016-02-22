@@ -54,12 +54,12 @@ div.row {
   margin-top: 1%;
   margin-bottom: 1%;
   padding: 0;
-  height: 250px;
+  height: 300px;
   width: 100%; }
   div.row div.cookie {
-    height: 96%;
-    width: 22%;
-    margin: 0 5.5%;
+    height: 100%;
+    width: 28%;
+    margin: 0 2%;
     padding: 0;
     background-color: #fbfbf2;
     display: inline-block; }
@@ -76,12 +76,12 @@ div.row03 {
   margin-top: 1%;
   margin-bottom: 1%;
   padding: 0;
-  height: 250px;
+  height: 300px;
   width: 100%; }
   div.row03 div.cookie {
-    height: 96%;
-    width: 22%;
-    margin: 0 5.5%;
+    height: 100%;
+    width: 29%;
+    margin: 0 2%;
     padding: 0;
     background-color: #fbfbf2;
     display: inline-block; }
@@ -98,12 +98,12 @@ div.row04 {
   margin-top: 1%;
   margin-bottom: 1%;
   padding: 0;
-  height: 250px;
+  height: 300px;
   width: 100%; }
   div.row04 div.cookie {
-    height: 96%;
-    width: 22%;
-    margin: 0 5.5%;
+    height: 100%;
+    width: 29%;
+    margin: 0 2%;
     padding: 0;
     background-color: #fbfbf2;
     display: inline-block; }
