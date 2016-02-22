@@ -6,3 +6,12 @@ var photos = {
   wall: ["photos/wall01.jpeg", "photos/wall02.jpeg", "photos/wall03.jpeg", "photos/wall04.jpeg", "photos/wall05.jpeg", "photos/wall06.jpeg"],
   wide: ["photos/wide01.jpeg", "photos/wide02.jpeg", "photos/wide03.jpeg", "photos/wide04.jpeg", "photos/wide05.jpeg", "photos/wide06.jpeg"]
 };
+
+var relStore = {
+  arcRel: ["arc01", "arc02", "arc03", "arc04", "arc05", "arc06"],
+  forRel: ["for01", "for02", "for03", "for04", "for05", "for06"],
+  nigRel: ["nig01", "nig02", "nig03", "nig04", "nig05", "nig06"],
+  patRel: ["pat01", "pat02", "pat03", "pat04", "pat05", "pat06"],
+  walRel: ["wal01", "wal02", "wal03", "wal04", "wal05", "wal06"],
+  widRel: ["wid01", "wid02", "wid03", "wid04", "wid05", "wid06"]
+}
