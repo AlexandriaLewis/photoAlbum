@@ -2,24 +2,6 @@ $(document).ready(function(){
 
 
 
-var rowTemplate = _.template($('#cutter').html());
-var cutters = [];
-
-function gatherRow1(album){
-  for (i=0;i<3;i++){
-    cutters += rowTemplate(album[i]);
-  }
-}
-
-// function gatherRow2(album){
-//   for (i=3;i<6;i++){
-//     cutters += rowTemplate(album[i]);
-//   }
-// }
-
-
-$('section.home1').html();
-
 //haha this works
 // $('section.home1').html(part1a+insert1a+part1b+insert1b+part1c+insert1c+part1d+part2a+insert2a+part2b+insert2b+part2c+insert2c+part2d);
 //---------------------- functioning literal code ------------------------------------------------------

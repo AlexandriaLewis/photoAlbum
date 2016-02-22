@@ -9,47 +9,15 @@
     <link href='https://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
 
     <script type="text/template" id="cutter">
-      <div class="cutter"><%= [] %></div>
+      <a  href="#" rel="albumPg"><div class="cookie">
+        <div class="cutter">
+          <img src=" <%=photo%> " alt="">
+        </div>
+      </div></a>
     </script>
 
-    <script type="text/template" id="homeTmpl01">
-        <div class="row first">
-          <a  href="#" rel="albumPg"><div class="cookie">
-            <div class="cutter">
-              <!-- HERE -->
-            </div>
-          </div></a>
-          <a href="#" rel="albumPg"><div class="cookie">
-            <div class="cutter">
-              <!-- HERE -->
-            </div>
-          </div></a>
-          <a href="#" rel="albumPg"><div class="cookie">
-            <div class="cutter">
-              <!-- HERE -->
-            </div>
-          </div></a>
-        </div>
-        <div class="row second">
-          <a href="#" rel="albumPg"><div class="cookie">
-            <div class="cutter">
-              <!-- HERE -->
-            </div>
-          </div></a>
-          <a href="#" rel="albumPg"><div class="cookie">
-            <div class="cutter">
-              <!-- HERE -->
-            </div>
-          </div></a>
-          <a href="#" rel="albumPg"><div class="cookie">
-            <div class="cutter">
-              <!-- HERE -->
-            </div>
-          </div></a>
-        </div>
-    </script>
 
-    <!-- <script type="text/template" id="homeTmpl02">
+    <script type="text/template" id="homeTmpl02">
     <section class="home2">
       <div class="row03">
         <a rel="photoView" href="#"><div class="cookie">
@@ -80,7 +48,7 @@
     <div class="fullView">
       <img src="" alt="">
     </div>
-    </script> -->
+    </script>
   </head>
   <body>
 
@@ -88,7 +56,7 @@
       <div class="myAlbums">
         <header = "head"><h1>Albums</h1></header>
         <section class="home1">
-          <div class="row">
+          <!-- <div class="row">
             <a  href="#" rel="albumPg"><div class="cookie">
               <div class="cutter"></div>
             </div></a>
@@ -109,7 +77,7 @@
             <a href="#" rel="albumPg"><div class="cookie">
               <div class="cutter"></div>
             </div></a>
-          </div>
+          </div> -->
         </section>
       </div>
 
@@ -161,8 +129,8 @@
 
 
     <script src="bower_components/underscore/underscore.js" charset="utf-8"></script>
-    <script type="text/javascript" src="photos.js"></script>
     <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="photos.js"></script>
     <script src="variables.js"></script>
     <script src="myAlbums.js"></script>
     <script src="main.js">

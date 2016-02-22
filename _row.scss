@@ -1,3 +1,23 @@
+div.cookie {
+  height: 100%;
+  width: 28%;
+  margin: 0 2%;
+  padding: 0;
+  background-color: #fbfbf2;
+  display: inline-block;
+
+      div.cutter {
+      width: 89%;
+      height: 72%;
+      margin: auto;
+      margin-top: 6%;
+      padding: 0;
+      background-color: #cccccc;
+      overflow: hidden;
+    }
+}
+
+
 div.row {
   margin-top:1%;
   margin-bottom: 1%;
