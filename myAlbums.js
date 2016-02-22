@@ -1,7 +1,27 @@
 $(document).ready(function(){
 
+
+
+var rowTemplate = _.template($('#cutter').html());
+var cutters = [];
+
+function gatherRow1(album){
+  for (i=0;i<3;i++){
+    cutters += rowTemplate(album[i]);
+  }
+}
+
+// function gatherRow2(album){
+//   for (i=3;i<6;i++){
+//     cutters += rowTemplate(album[i]);
+//   }
+// }
+
+
+$('section.home1').html();
+
 //haha this works
-$('section.home1').html(part1a+insert1a+part1b+insert1b+part1c+insert1c+part1d+part2a+insert2a+part2b+insert2b+part2c+insert2c+part2d);
+// $('section.home1').html(part1a+insert1a+part1b+insert1b+part1c+insert1c+part1d+part2a+insert2a+part2b+insert2b+part2c+insert2c+part2d);
 //---------------------- functioning literal code ------------------------------------------------------
 //------------------------------------------------------------------------------------------------------
 
@@ -92,6 +112,8 @@ $('body').on('click','.butts', function(event) {
   var selected = "." + $(this).attr('rel');
   $(selected).removeClass('inactive');
   $(selected).siblings('div').addClass('inactive');
+  var imgSrc = $(this).find('img').attr("src");
+  $('.fullView').html("<img src='"+imgSrc+"'/>");
 
 });
 
@@ -110,8 +132,10 @@ function home02(album){
     var lookingForLove = "";
 
     function rowingThree(photo){
+      console.log(photo);
       lookingForLove += "<div class='row03'>";
       for (i=0;i<3;i++){
+        console.log(photo[i]);
         lookingForLove += "<a href='#' class='butts' rel='photoView'><div class='cookie'><div class='cutter'><img src='"
         +photo[i]+ "'/></div></div></a>";
       }
@@ -139,6 +163,7 @@ function home02(album){
     $('section.home2').html(lookingForLove+inAllTheWrongPlaces);
 
     };
+
 
 
 
