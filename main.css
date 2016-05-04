@@ -24,7 +24,7 @@ body {
     display: none; }
 
 div.myAlbums {
-  height: 684px;
+  height: 850px;
   width: inherit;
   margin: 0;
   padding: 0; }
@@ -49,6 +49,22 @@ div.myAlbums {
       top: 50%;
       left: -22.5%;
       transform: translateY(-50%); }
+
+div.cookie {
+  height: 300px;
+  width: 29%;
+  margin: 2% 2%;
+  padding: 0;
+  background-color: #fbfbf2;
+  display: inline-block; }
+  div.cookie div.cutter {
+    width: 89%;
+    height: 72%;
+    margin: auto;
+    margin-top: 6%;
+    padding: 0;
+    background-color: #cccccc;
+    overflow: hidden; }
 
 div.row {
   margin-top: 1%;

@@ -7,25 +7,32 @@ var photos = {
   wide: ["photos/wide01.jpeg", "photos/wide02.jpeg", "photos/wide03.jpeg", "photos/wide04.jpeg", "photos/wide05.jpeg", "photos/wide06.jpeg"]
 };
 
-function getFirst(){
-  var albumArr = Object.keys(photos);
-  var arr = [];
-  albumArr.forEach(function(el){
-    arr.push(photos[el][0]);
-  });
-  return arr.map(function(el) {
-    return {
-      photo: el
-    }
-  });
-}
+// var tmplPhotos = {
+//   {
+//     name: "architecture",
+//     photo: "photos/architecture01.jpeg"
+//   },
+// }
 
-var albumCovers = getFirst();
-
-var firstView = _.template($('#cutter').html());
-
-_.each(albumCovers, function(el) {
-  console.log(albumCovers);
-  $('.home1').append(firstView(el));
-
-});
+// function getFirst(){
+//   var albumArr = Object.keys(photos);
+//   var arr = [];
+//   albumArr.forEach(function(el){
+//     arr.push(photos[el][0]);
+//   });
+//   return arr.map(function(el) {
+//     return {
+//       photo: el
+//     }
+//   });
+// }
+//
+// var albumCovers = getFirst();
+//
+// var firstView = _.template($('#cutter').html());
+//
+// _.each(albumCovers, function(el) {
+//   console.log(albumCovers);
+//   $('.home1').append(firstView(el));
+//
+// });

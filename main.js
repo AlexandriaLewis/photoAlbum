@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 $('.myAlbums').siblings('div').addClass('inactive');
 
-var loadPg = $('.row').find('a');
+var loadPg = $('section').find('a');
 loadPg.click(function(event){
   event.preventDefault();
   var selected = "." + $(this).attr('rel');
@@ -20,6 +20,12 @@ home.click(function(event){
 
 });
 
-
+// $('.photoView').on('click', function(event) {
+//   event.preventDefault();
+//   var selected = "." + $(this).attr('rel');
+//   $(selected).removeClass('inactive');
+//   $(selected).siblings('div').addClass('inactive');
+//
+// });
 
 });

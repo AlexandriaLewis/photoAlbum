@@ -3,7 +3,7 @@ $(document).ready(function(){
 
 
 //haha this works
-// $('section.home1').html(part1a+insert1a+part1b+insert1b+part1c+insert1c+part1d+part2a+insert2a+part2b+insert2b+part2c+insert2c+part2d);
+$('section.home1').html(part1a+insert1a+part1b+insert1b+part1c+insert1c+part1d+part2a+insert2a+part2b+insert2b+part2c+insert2c+part2d);
 //---------------------- functioning literal code ------------------------------------------------------
 //------------------------------------------------------------------------------------------------------
 
@@ -100,13 +100,7 @@ $('body').on('click','.butts', function(event) {
 });
 
 
-$('.photoView').on('click', function(event) {
-  event.preventDefault();
-  var selected = "." + $(this).attr('rel');
-  $(selected).removeClass('inactive');
-  $(selected).siblings('div').addClass('inactive');
 
-});
 
 
 function home02(album){
